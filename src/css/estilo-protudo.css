@@ -1,0 +1,35 @@
+main {
+    background-color: black;
+}
+
+.lista-produto .produto {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    padding: 3;
+    border: 2px solid #32d926;
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 205px;
+    height: 205px;
+}
+
+.nome-produto {
+    background-color: #32d926;
+    text-align: center;
+    margin: 1px;
+    color: black;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    padding: 0;
+}
+
+.valor {
+    background-color: #32d926;
+    text-align: center;
+    margin: 1px;
+    color: black;
+    border-radius: 0 0 10px 10px;
+}

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'MINECRAFT PE';
+    src: url('./font/minecraft-pe.ttf');
+}
+
+@font-face {
+    font-family: 'Starjout';
+    src: url('./font/Starjout.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('./font/pokemon-solid.ttf');
+}
+
+@font-face {
+    font-family: 'Hot Dog';
+    src: url('./font/hot-dog.otf');
+}
+
+@font-face {
+    font-family: 'Scream Real';
+    src: url('./font/scream-real.ttf');
+}
+
+.star-wars {
+    font-family: 'Starjout', Courier, monospace;
+    font-weight: 50px;
+}
+
+.pokemon {
+    font-family: 'Pokemon Solid';
+    font-weight: 50px;
+}
+
+.diversos {
+font-family: 'Hot Dog';
+font-weight: 50px;
+}
+
+.valor {
+    font-family: 'Scream Real';
+    font-weight: 50px;
+}

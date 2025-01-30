@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 1px solid white;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+}
+
+.avisos {
+    background-color: #32d926;
+    padding: 3px;
+}
+
+.frase-aviso {
+    color: black;
+    text-align: center;
+}
+
+
+.cabecalho {
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: stretch;
+    display: flex;
+    gap: 24px;
+    background-color: black;
+    margin: auto;
+    padding: 25PX;
+    /* border-radius: 10PX;
+    border: 0.1875rem solid rgb(255, 101, 0); */
+
+}
+
+.cabecalho .logo {
+    height: 50px;
+}
+
+.msg {
+    color: #32d926;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #32d926;
+    border-radius: 20px;
+
+}
+
+.msg:hover {
+
+    color: black;
+    background-color: #32d926;
+    font-size: 26px;
+    border: 1px solid #32d926;
+    border-radius: 20px;
+}
+
+.in-lo-ca {
+    color: black;
+    text-align: right;
+}
+
+.log-cad a {
+    border: 1px solid #32d926;
+    color: #32d926;
+    border-radius: 6px;
+}
+
+.log-cad a:hover {
+    color: black;
+    background-color: #32d926;
+    border: 0;
+}
+
+.formulario-log {
+    width: 200px;
+    border-radius: 10px;
+    padding: 25px 100px 25px 100px;
+    border: 0.1875rem solid rgb(255, 101, 0);
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    gap: 25px;
+}
+
+.logar {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.fazer {
+    margin: 0px 0px 0px 480px;
+    color: rgb(255, 101, 0);
+}
+
+.submeter {
+    color: #C4C4C4;
+    background-color: rgb(255, 101, 0);
+    padding: 10px 15px 10px 15px;
+    border: 0.5px solid rgb(255, 101, 0);
+    border-radius: 15px;
+}
+
+.submeter:hover {
+    background-color: #C4C4C4;
+    color: rgb(255, 101, 0);
+}
+
+.formulario-cad {
+
+    width: 200px;
+    border-radius: 10px;
+    padding: 25px 100px 25px 100px;
+    border: 0.1875rem solid rgb(255, 101, 0);
+    margin: 5px auto 100px auto;
+    background-color: white;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.preencher {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo-menu {
+
+    color: black;
+    text-align: center;
+    background-color: #32d926;
+    padding: 20px;
+}
+
+.fundo-menu li {
+    display: inline-block;
+    padding: 0 50px 0 0;
+}
+
+footer {
+    padding-left: 64px;
+    padding-right: 64px;
+    position: relative;
+}
+
+.rota-pe-1 a {
+    display: inline-block;
+    padding: 25px;
+}
+
+.rota-pe-1 {
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.msg-text {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+    color: #32d926;
+    font-size: 24px;
+}
+
+.fale {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+}
+
+.fale:hover {
+    color: white;
+}
+
+.t-d {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+    color: #32d926;
+    font-size: 24px;
+}
+
+.t-d:hover {
+    color: white;
+}
+
+.r-p {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+    color: #32d926;
+    font-size: 24px;
+}
+
+.r-p:hover {
+    color: white;
+}
+
+.politica-t-d {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+    color: #32d926;
+    font-size: 24px;
+}
+
+.politica-t-d:hover {
+    color: white;
+}
+
+.denuncia {
+    font-size: 14px !important;
+    font-weight: initial;
+    margin-bottom: 0;
+    color: #32d926;
+    font-size: 24px;
+}
+
+.denuncia:hover {
+    color: white;
+}
+
+.rota-pe-2 {
+    padding: 25px;
+    text-align: left;
+    background-color: black;
+    border: 1px solid white;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 15px;
+    color: #32d926;
+}
+
+p {
+    font-size: 15px;
+    padding: 15px;
+    color: #32d926;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 50px;
+    color: #32d926;
+
+}
+
+.pix {
+    margin: 12px;
+    padding: 5px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 57px;
+    height: 37px;
+}
+
+.boleto {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 57px;
+    height: 37px;
+}
+
+.amex {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 57px;
+    height: 37px;
+}
+
+.diners-club {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 47px;
+    height: 47px;
+}
+
+.mastercard {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 57px;
+    height: 37px;
+}
+
+.visa {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 57px;
+    height: 37px;
+}
+
+.google-seguro {
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #32d926;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.rota-pe-3 {
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.fab {
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+.fa-instagram {
+    
+    color: #32d926;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-twitch {
+    color: #32d926;
+}
+
+.fa-twitch:hover {
+    color: white;
+}
+
+.fa-youtube {
+    color: #32d926;
+}
+
+.fa-youtube:hover {
+    color: white;
+}

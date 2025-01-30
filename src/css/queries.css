@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+    .cabecalho {
+        text-align: center;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: stretch;
+        display: flex;
+        gap: 12px;
+        background-color: black;
+        margin: auto;
+        padding: 12PX;
+    }
+
+
+    .lista-produto .produto {
+        position: relative;
+        display: inline-block;
+        margin:50px;
+        padding: 2px;
+        border: 2px solid #32d926;
+        border-radius: 10px;
+    }
+
+    
+}
